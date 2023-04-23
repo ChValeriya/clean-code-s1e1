@@ -10,20 +10,20 @@
           charset="utf-8">
   </head>
   <body>
-    <div class="details">
+    <section class="details">
       <img src="./eisenhower-matrix.jpg">
       <a class="more-inf"
          href="https://goal-life.com/page/method/matrix-eisenhower">
          Want more details?</a>
-    </div>
-    <div class="main-page">
-      <p id="add-elem">
-        <label class="section-title new-task-title" for="new-task">Add Item</label>
+    </section>
+    <section class="main-page">
+      <div id="add-elem">
+        <h3 class="section-title new-task-title">Add Item</h3>
         <div class="task-wrapper">
           <input id="new-task" class="task task-input" type="text">
           <button>Add</button>
         </div>
-      </p>
+      </div>
       <h3 class="section-title">Todo</h3>
       <ul id="incomplete-tasks">
         <li class="task-item">
@@ -51,7 +51,7 @@
           <button class="delete"><img class="delete-icon" src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
