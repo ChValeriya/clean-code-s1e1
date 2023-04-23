@@ -13,7 +13,7 @@ body {
 .details img {
   width: 100%;
 }
-.more_inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -139,11 +139,11 @@ button:hover {
   display: none;
 }
 
-.editMode .task-input {
+.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.edit-mode label {
   display: none;
 }
