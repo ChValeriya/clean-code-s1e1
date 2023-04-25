@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -37,19 +37,21 @@ body {
 .main__task-wrapper {
   display: flex;
 }
-ul {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
-li,
-h3 {
+.main__task-item,
+.main__title {
   list-style: none;
 }
-input,
-button {
+.main__task__input,
+.main__checkbox,
+.button {
   outline: none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -58,7 +60,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -146,6 +148,6 @@ button:hover {
   width: 224px;
 }
 
-.main__edit-mode label {
+.main__edit-mode .main__task-label {
   display: none;
 }
